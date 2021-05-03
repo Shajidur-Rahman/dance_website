@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box  ;
+}
+
+#nav{
+    background-color: aqua;   
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#nav li{
+    list-style: none;
+    padding: 10px 30px;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#intro{
+    height: 200px;
+    background-color: red;
+}
+
+#sponsers {
+    height: 200px;
+    background-color: yellow;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+}
